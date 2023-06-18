@@ -942,6 +942,46 @@ video {
   background-image: url('/img/video-ellipse.png');
 }
 
+.bg-\[url\(\'\/img\/hero\.png\'\)\]{
+  background-image: url('/img/hero.png');
+}
+
+.bg-\[url\(\'img\/history\.png\'\)\]{
+  background-image: url('img/history.png');
+}
+
+.bg-\[url\(\'img\/video-1\.png\'\)\]{
+  background-image: url('img/video-1.png');
+}
+
+.bg-\[url\(\'img\/video-ellipse\.png\'\)\]{
+  background-image: url('img/video-ellipse.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/hero\.png\'\)\]{
+  background-image: url('../img/hero.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/history\.png\'\)\]{
+  background-image: url('../img/history.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/video-1\.png\'\)\]{
+  background-image: url('../img/video-1.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/video-3\.png\'\)\]{
+  background-image: url('../img/video-3.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/video-ellipse\.png\'\)\]{
+  background-image: url('../img/video-ellipse.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/another-header-ellipse\.png\'\)\]{
+  background-image: url('../img/another-header-ellipse.png');
+}
+
 .bg-\[length\:115\%_115\%\]{
   background-size: 115% 115%;
 }
