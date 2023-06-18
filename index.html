@@ -1,32 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arabian Horse</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/public/styles.css" />
+  </head>
+  <body class="font-main font-normal text-sm leading-5 text-white">
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
-
-    <div class="main">
-        В данном блоке размещается верстка
+    <!-- COTAINER -->
+    <div class="container bg-black flex flex-col gap-y-16 px-10 lg:px-32">
+      <!-- HEADER -->
+      <header class="flex flex-row justify-between items-center py-7">
+        <a
+          class="capitalize font-semibold text-xl inline-block px-3 py-2 border-b-2 border-black hover:border-gray hover:text-gray transition"
+          href="#"
+          >TopHorse</a
+        >
+        <nav class="flex flex-row gap-x-16">
+          <ul class="flex flex-row gap-x-8">
+            <li>
+              <a
+                class="inline-block px-3 py-2 border-b-2 border-black hover:border-gray hover:text-gray transition"
+                href="#"
+                >Все лошади</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block px-3 py-2 border-b-2 border-black hover:border-gray hover:text-gray transition"
+                href="#"
+                >Топ списком</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block px-3 py-2 border-b-2 border-black hover:border-gray hover:text-gray transition"
+                href="#"
+                >О проекте</a
+              >
+            </li>
+            <li>
+              <a
+                class="inline-block px-3 py-2 border-b-2 border-black hover:border-gray hover:text-gray transition"
+                href="#"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="link-brown" href="#">
+                <p class="flex flex-raw gap-2.5 items-center">
+                  <span>Школа езды</span>
+                  <span><img src="./img/right-arrow 2.svg" alt="arrow-right img" /></span>
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- HERO -->
+      <section class="bg-[url('/img/hero.png')] bg-no-repeat hero-img-pos">
+        <!-- TITLE -->
+        <div class="w-3/5 m-auto flex flex-col items-center gap-y-7 text-center mb-16">
+          <h1 class="title-main">
+            <span class="not-italic">Арабская</span>&nbsp;<span class="italic">лошадь</span>
+          </h1>
+          <p class="px-28">
+            Арабская лошадь — одна из самых узнаваемых пород лошадей в мире.
+          </p>
+        </div>
+        <div class="flex flex-row items-center justify-between">
+          <!-- LEFT COLUMN -->
+          <div class="w-80">
+            <p class="mb-20 text-2xl">
+              Лошади выделяются своим интеллектом, своей близостью к человеку.
+            </p>
+            <p class="mb-24 text-neutral/5">
+              Они также заслуживают доверия и доставляют удовольствие, поэтому их часто выбирают для
+              лечебной езды, выставок, шоу-прыжков.
+            </p>
+            <p class="mb-5 text-neutral/4">
+              Порода берет своё начало на Аравийском полуострове, и есть свидетельства его
+              существования с 5000 лет назад.
+            </p>
+            <a class="link-brown" href="#">
+              <p class="flex flex-raw gap-2.5 items-center">
+                <span>История</span>
+                <span><img src="./img/right-arrow 2.svg" alt="arrow-right img" /></span>
+              </p>
+            </a>
+          </div>
+          <!-- RIGHT COLUMN -->
+          <div class="w-32">
+            <p class="mb-8 text-gray">
+              <span>Рост в холке</span>
+              <span class="hero-span">
+                &#8776;&nbsp;1,5 м
+              </span>
+            </p>
+            <p class="mb-8 text-gray">
+              <span>Вес взрослого</span>
+              <span class="hero-span">до 450 кг</span>
+            </p>
+            <p class="mb-8 text-gray">
+              <span>Грудь в обхвате</span>
+              <span class="hero-span">&#8776;&nbsp;176 см</span>
+            </p>
+            <p class="mb-8 text-gray">
+              <span>Пясть в обхвате</span>
+              <span class="hero-span">&#8776;&nbsp;19 см</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- DESCRIPTION -->
+      <section
+        class="grid grid-cols-[200px_480px_320px_180px] grid-rows-[60px_288px_31px_160px_350px_90px]"
+      >
+        <!-- DESC1 -->
+        <div class="col-start-2 row-start-1 row-end-5 bg-black-light pt-7 pl-14 pr-10">
+          <h2 class="title-main leading-10 mb-8">
+            <span class="inline-block not-italic mb-3">Внешние</span>
+            <span class="inline-block italic">признаки</span>
+          </h2>
+          <div class="text-neutral/2 leading-4">
+            <p class="mb-2">
+              Лошади арабской породы имеют уникальный вогнутый профиль, строение которого
+              определяется особенностями скелета.
+            </p>
+            <p class="mb-2">
+              Арабские скакуны имеют небольшую голову с большими глазами. Шея высокая, с красивым
+              изгибом. Грудь глубокая и широкая, спина также широкая. Отлично развитые, крепкие ноги
+              увенчиваются прочными копытами.
+            </p>
+            <p class="mb-2">
+              Ещё один характерный признак лошадей арабской породы — «петушиный» хвост, который
+              скакуны поднимают вверх во время быстрого бега.
+            </p>
+          </div>
+        </div>
+        <!-- DESC2 -->
+        <div class="col-start-3 row-start-2 row-end-4">
+          <img src="./img/desc-2.png" alt="desc img" />
+        </div>
+        <!-- DESC3 -->
+        <div class="col-start-1 col-end-3 row-start-5 row-end-7">
+          <img src="./img/desc-3.png" alt="desc img" />
+        </div>
+        <!-- DESC4 -->
+        <div class="col-start-3 col-end-5 row-start-3 row-end-6">
+          <img src="./img/desc-4.png" alt="desc img" />
+        </div>
+      </section>
+      <!-- VIDEO -->
+      <section class="text-center">
+        <h2 class="title-main mb-12">
+          <span class="italic">В</span><span class="not-italic">идео</span>
+        </h2>
+        <div class="grid grid-cols-[348px_32px_420px_32px_348px] grid-rows-[29px_214px_29px]">
+          <!-- V1 -->
+          <div
+            class="col-start-1 col-end-3 row-start-2 bg-[url('/img/video-1.png')] bg-no-repeat bg-center"
+          ></div>
+          <!-- V2 -->
+          <div
+            class="col-start-2 col-end-5 row-start-1 row-end-4 flex items-center justify-center relative hover:opacity-80"
+          >
+            <!-- ELLIPSE -->
+            <div
+              class="absolute bg-[url('/img/video-ellipse.png')] bg-no-repeat bg-center bg-cover w-[160%] h-[160%]"
+            ></div>
+            <img class="z-10" src="/img/video-2.png" alt="video img" />
+            <button class="absolute z-20">
+              <img src="/img/video-btn.svg" alt="video btn img" />
+            </button>
+          </div>
+          <!-- V3 -->
+          <div
+            class="col-start-4 col-end-6 row-start-2 bg-[url('/img/video-3.png')] bg-no-repeat bg-center"
+          ></div>
+        </div>
+      </section>
+      <!-- FEATURES -->
+      <section>
+        <div class="flex justify-between items-center gap-14 mb-16">
+          <h2 class="title-main inline-block h-14">
+            <span class="italic">О</span><span class="not-italic">собе</span
+            ><span class="italic">н</span><span class="not-italic">ности</span>
+          </h2>
+          <p class="text-neutral/3">
+            Арабские лошади отличаются завидной выносливостью — при росте не более 1,53 м в холке
+            они без труда несут на себе взрослых наездников
+          </p>
+        </div>
+        <div><img class="object-cover" src="./img/features.png" alt="features img" /></div>
+      </section>
+      <!-- TYPES -->
+      <section
+        class="grid grid-cols-[260px_260px_260px_260px] grid-row-[54px_72px_150px_278px_108px] gap-x-11"
+      >
+        <!-- TYPES-TITLE -->
+        <h2 class="col-start-1 col-end-5 row-start-1 text-center">
+          <span class="title-main italic inline-block h-14">Виды</span>
+          &nbsp;
+          <span class="title-main not-italic inline-block h-14">экстерьера</span>
+        </h2>
+        <!-- EMPTY ROW -->
+        <div class="col-start-1 col-end-5 row-start-2 h-16"></div>
+        <!-- TYPE-1 -->
+        <div class="col-start-1 row-start-3 row-end-5">
+          <img src="./img/type-1.png" alt="type img" />
+          <p class="font-additional text-2xl font-medium text-neutral/2 my-2">
+            Кохейлан
+          </p>
+          <p class="text-neutral/4">
+            массивные лошади, обладающие крепкой конституцией, развитой мускулатурой
+          </p>
+        </div>
+        <!-- TYPE-2 -->
+        <div class="col-start-2 row-start-4 row-end-6">
+          <img src="./img/type-2.png" alt="type img" />
+          <p class="font-additional text-2xl font-medium text-neutral/2 my-2">
+            Сиглави
+          </p>
+          <p>
+            имеют среднюю по мощности конституцию тела, не очень высокий рост
+          </p>
+        </div>
+        <!-- TYPE-3 -->
+        <div class="col-start-3 row-start-3 row-end-5">
+          <img src="./img/type-3.png" alt="type img" />
+          <p class="font-additional text-2xl font-medium text-neutral/2 my-2">
+            Кохейлан-сиглави
+          </p>
+          <p>
+            тип, который сочетает в себе массивные формы кохейлана и сухость, внешнюю
+            привлекательность сиглави
+          </p>
+        </div>
+        <!-- TYPE-4 -->
+        <div class="col-start-4 row-start-4 row-end-6">
+          <img src="./img/type-4.png" alt="type img" />
+          <p class="font-additional text-2xl font-medium text-neutral/2 my-2">
+            Хадбан
+          </p>
+          <p>
+            самые крупные представители арабской породы, имеют наименее ярко выраженную
+            «восточность»
+          </p>
+        </div>
+      </section>
+      <!-- </div> -->
+      <!-- ANOTHER HEADER -->
+      <section
+        class="-mx-[283px] text-center font-additional not-italic font-normal text-[144px] leading-[194px] text-white uppercase"
+      >
+        <div
+          class="grid grid-cols-[370px_180px_330px_270px_692px] grid-rows-[188px_20px_75px_80px_20px_20px_170px_20px]"
+        >
+          <div class="tracking-wide col-start-1 col-end-6 row-start-1 row-end-3 z-20">
+            Арабские лошади
+          </div>
+          <div class="tracking-wide col-start-1 col-end-6 row-start-2 row-end-7 z-20">
+            славятся доверием
+          </div>
+          <div
+            class="inline-block whitespace-nowrap text-clip overflow-visible tracking-wide col-start-1 col-end-6 row-start-6 row-end-8 z-30"
+          >
+            дружелюбием и умом
+          </div>
+          <div class="col-start-4 col-end-5 row-start-1 row-end-6 relative z-10">
+            <!-- ELLIPSE -->
+            <div
+              class="w-[140%] h-[140%] bg-[url('/img/another-header-ellipse.png')] bg-no-repeat bg-center bg-[length:115%_115%] absolute -top-[20%] -left-[20%] -z-10"
+            ></div>
+            <img src="./img/another-header-1.png" alt="another-header img" />
+          </div>
+          <div class="col-start-2 col-end-3 row-start-4 row-end-9 z-20">
+            <img src="./img/another-header-2.png" alt="another-header img" />
+          </div>
+        </div>
+      </section>
+      <!-- HISTORY -->
+      <section class="flex flex-row items-end gap-x-14">
+        <div class="basis-1/3">
+          <h2 class="title-main leading-10 mb-8">
+            <span class="inline-block italic mb-3">История</span>
+            <span class="inline-block not-italic">породы</span>
+          </h2>
+          <p class="text-neutral/2 mb-11">
+            Арабская — одна из древнейших пород лошадей. Арабские лошади появились в центральной
+            части Аравийского полуострова, около 5000 лет назад в (IV–VII веках нашей эры).
+          </p>
+          <p class="text-neutral/5 mb-11">
+            Скакуны были запрещены к продаже в другие земли, в том числе и в Европу, под страхом
+            смертной казни. Были запрещены скрещивания лошадей с другими породами, поэтому она на
+            протяжении долгих веков развивается в чистоте.
+          </p>
+          <p class="text-neutral/5">
+            Долгое время лошади являлись национальным достоянием арабов-кочевников.
+          </p>
+        </div>
+        <div class="basis-2/3 flex flex-col items-end">
+          <p class="-mb-10 pr-1 z-30">назад</p>
+          <p class="title -mb-11 z-20">5000 лет</p>
+          <div
+            class="z-10 w-full h-[600px] bg-[url('/img/history.png')] bg-no-repeat bg-cover bg-clip-padding border-r-4 border-black"
+          ></div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="flex flex-row justify-between items-center py-4">
+        <div class="basis-1/3 font-semibold text-xl text-brown-light">
+          <a
+            class="inline-block px-3 py-2 hover:underline decoration-gray underline-offset-4 hover:text-gray trnsition"
+            href="#"
+            >TopHorse</a
+          >
+        </div>
+        <div class="basis-1/3 text-center">
+          <a
+            class="inline-block px-3 py-2 hover:underline decoration-gray underline-offset-4 hover:text-gray transition"
+            href="#"
+            >Design by Kuznetsov Dmitriy</a
+          >
+        </div>
+        <div class="basis-1/3 text-right">
+          <button
+            class="px-7 py-3.5 border border-brown-light border-solid justify-self-end hover:text-gray hover:border-gray transition"
+          >
+            <span>Посмотреть вживую</span>
+          </button>
+        </div>
+      </footer>
     </div>
-
-</body>
+  </body>
 </html>
