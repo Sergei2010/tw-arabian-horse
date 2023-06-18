@@ -967,6 +967,11 @@ video {
      object-fit: cover;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-28{
   padding-left: 7rem;
   padding-right: 7rem;
@@ -1005,21 +1010,6 @@ video {
 .py-7{
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
-}
-
-.px-24{
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.px-32{
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pl-14{
@@ -1242,13 +1232,6 @@ video {
 
 .hover\:opacity-80:hover{
   opacity: 0.8;
-}
-
-@media (min-width: 960px){
-  .md\:px-24{
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
 }
 
 @media (min-width: 1440px){
